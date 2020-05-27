@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.nanohttpd:nanohttpd:2.3.1")
 }
 
 tasks.withType<KotlinCompile> {
